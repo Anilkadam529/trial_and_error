@@ -8,6 +8,6 @@ graph TD
     D --> E{Real Urgency Prioritization};
     E --> D;
     D --> F{Monday Weekly Meeting};
-    F -- Available Capacity --> G[Data Engineer Selects Top Ticket(s)];
+    F -- Available Capacity --> G["Data Engineer Selects Top Ticket(s)"];
     G --> H[Data Engineering Work];
     
