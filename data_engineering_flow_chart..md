@@ -1,7 +1,7 @@
 
 ```mermaid
 graph TD
-    A[Analyst Creates Ticket] --> B(Backlog - Workload & Prio Board);
+    A[Analyst Creates Ticket] --> B["Backlog -\nWorkload &\nPrio Board"];
     B --> C{Thursday 2 PM Review};
     subgraph Thursday Meeting Participants
         C1[Data VP]
